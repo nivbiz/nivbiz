@@ -1,0 +1,117 @@
+NAVIGATION BAR
+
+	<meta name="viewport" content="width=device-width, initial scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+		body{font-family: Arial, Helvetica, sans-serif;}
+		.navbar{overflow:hidden; background-color:#ADD8E6;}
+		.navbar a{float:left; font-size:16px; color:white; text-align:center; padding:14px 16px; text-decoration: none;}
+		.dropdown{float:left; overflow:hidden;}
+		.dropdown .dropbtn{font-size:16px; border:none; outline:none; color:white; padding:14px 16px; background-color:inherit; font-family:inherit; margin:0;}
+		.navbar a:hover, .dropdown:hover .dropbtn{background-color:red;}
+		.dropdown-content{display:none; position:absolute; background-color:#f9f9f9; min-width:160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index:1;}
+		.dropdown-content a{float:none; color:black; padding:12px 16px; text-decoration:none; display:block; text-align:left;}
+		.dropdown-content a:hover{background-color:#ddd;}
+		.dropdown:hover .dropdown-content{display:block;}	
+		</style>
+
+TOP IN HEAD, BOTTOM IN BODY
+
+	<div class="navbar">
+		<a href="#home">Home</a>
+		<a href="#news">News</a>
+		<div class="dropdown">
+			<button class="dropbtn">dropdown
+				<i class="fa fa-caret-down"></i>
+			</button>
+		<div class="dropdown-content">
+			<a href="pageflower.html">flowers</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		</div>
+	</div
+
+MAKING A SECTION
+	<section class="example">*
+            <img src="img/flower.jpg" alt="flower" width="722" height="760">
+    </section>
+
+ADDING A PICTURE FRAMED
+ <figure class="profile-pic-figure">
+            <img src="img/flower.jpg" alt="lilly bouquet" title="lilly bouquet" width="722" height="760">
+</figure>
+
+ADDING A SECTION 
+just use <section class=hero>
+
+TABLES
+<h2>Making tables</h2>
+		<table border="1" width="30%">
+			<tr>
+				<td align="center" valign="top">box1</td>
+				<td>box2</td>
+			</tr>
+			<tr>
+				<td>box3</td>
+				<td>box4</td>
+			</tr>
+		</table>
+		<br/>
+		<br/>
+		<table border="1">
+			<tr>
+				<td colspan="3">box1</td>
+			</tr>
+			<tr>
+				<td>box2</td>
+				<td>box3</td>
+				<td>box4</td>
+			</tr>
+		</table>
+		<br/>
+		<br/>
+		<table border="1">
+			<tr>
+				<td rowspan="3">box1</td>
+				<td>box2</td>
+			</tr>
+			<tr>
+				<td>box3</td>
+			</tr>
+			<tr>
+				<td>box4</td>
+			</tr>
+		</table>
+
+
+EMAILS
+<h2>Contact information</h2>
+		<a href="mailto:e.niven@free.fr">Send your custom order request here</a>
+		<hr/>
+
+IMAGES
+
+		<h2>Images</h2>
+		<a href="flowers.html"><img src="img/flower.jpg" width="400" height="450"></a>
+		<hr/>
+
+<ol>	
+			<li><a href="flowers.html">flowers</a></li>
+			<li> if the page were in a sub-folder, add the sub folder name first, a slash, and then the name of the file</li>
+			<li> if the page were in a sub-folder of the page1, use ../ to point at an superior file</li>	
+			<li> to get a "table des matières inside the same page, use id="name of the title inside the opening. And then a href="#name of the title" closed by /a. </li>
+		</ol>
+		<hr/>
+		
+LISTS
+   <hr/>
+		<h2>The to do list of my website</h2>
+		<p>-add buttons to redirect into other pages</p>
+		<p>-add the images in a table</p>
+		<hr/>
+		<h2>List of flags</h2>
+		<ul>
+			<li><b>small</b>: make the text smaller<br/>Example: <small>smaller text</small></li>
+			<li><b>ul</b>: make an unordered list</li>
+			<li><b>ol</b>: make an ordered (numbered) list</li>
+		</ul>
